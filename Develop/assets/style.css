@@ -7,6 +7,10 @@ body {
     align-items: center;
 }
 
+p {
+    margin: 5px 0;
+}
+
 nav {
     display: block;
 }
@@ -28,11 +32,39 @@ nav {
 }
 
 .flex-container {
+    font-size: 24px;
     background-color: green;
     margin: 10px;
     padding: 20px;
     justify-content: center;
-    width: 300px;
+}
+
+.small-caption-phonebook {
+    color: aqua;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+}
+
+.small-caption-lemonade {
+    color: aqua;
+    position: absolute;
+    top: 160%;
+    left: 51%;
+}
+
+.small-caption-string {
+    color: aqua;
+    position: absolute;
+    top: 194%;
+    left: 49%;
+}
+
+.big-caption {
+    color: aqua;
+    position: absolute;
+    top: 93%;
+    left: 37%;
 }
 
 .big-container {
@@ -44,7 +76,7 @@ nav {
 }
 
 .link-no-underline {
-    text-decoration: none;
+    color: black;
 }
 
 .profile-header {
