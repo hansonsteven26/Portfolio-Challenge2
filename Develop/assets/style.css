@@ -76,7 +76,7 @@ nav {
 }
 
 .link-no-underline {
-    color: black;
+    text-decoration: none;
 }
 
 .profile-header {
